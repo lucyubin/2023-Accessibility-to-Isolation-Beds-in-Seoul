@@ -130,7 +130,7 @@ plt.show()
 
 # Choropleth Map
 fig, ax = plt.subplots(1, 1, figsize=(12, 8))
-pop_sfca.plot(column='sfca', cmap='YlOrRd', linewidth=0.8, ax=ax, legend=True)
+covid_sfca.plot(column='sfca', cmap='YlOrRd', linewidth=0.8, ax=ax, legend=True)
 
 # Add Legend
 ax.set_title('2SFCA Index based on COVID-19 Confirmed Cases Density')
